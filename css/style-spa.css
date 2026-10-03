@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap");
+:root {
+  --theme-color1: #d35453;
+  --theme-color2: #332828;
+  --theme-color1-rgb: 211, 84, 83;
+  --theme-color2-rgb: 51, 40, 40;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --body-bg: #171313;
+  --heading-font-family: "Philosopher", sans-serif;
+}
+
+.about-section-royal .section-wrapper .section-title {
+  color: var(--theme-color-white);
+}
+.about-section-royal .section-paragraph {
+  color: rgba(var(--theme-color-white-rgb), 0.6);
+}
+.about-section-royal .about-bg-shape-1 {
+  left: 50px;
+}
+
+@media (max-width: 1199.98px) {
+  .banner-area-spa .banner-btn-box {
+    justify-content: center;
+  }
+}

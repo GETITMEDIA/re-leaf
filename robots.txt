@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Leftover placeholder pages saved inside asset folders (not part of the site)
+Disallow: /css/images/*.html
+Disallow: /images/*.html
+
+Sitemap: https://releafresort.com/sitemap.xml

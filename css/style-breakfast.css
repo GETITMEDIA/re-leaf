@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap");
+:root {
+  --theme-color1: #A44438;
+  --theme-color2: #0a192f;
+  --theme-color1-rgb: 164, 68, 56;
+  --theme-color2-rgb: 10, 25, 47;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --body-bg: #F4EFED;
+  --text-color: rgba(var(--headings-color-rgb), .6);
+  --headings-color: #181820;
+  --headings-color-rgb: 24, 24, 32;
+  --h2-font-size: 82px;
+  --h3-font-size: 70px;
+  --h4-font-size: 30px;
+  --h5-font-size: 24px;
+  --line-height-heading-small: 1.4em;
+  --heading-font-family: "PP Fragment Serif Regular";
+  --body-font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "PP Fragment Serif Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PP Fragment Serif Regular"), url("../fonts/pp-fragment-webfont/PPFragment-SerifRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "PP Fragment Serif Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PP Fragment Serif Light"), url("../fonts/pp-fragment-webfont/PPFragment-SerifLight.woff") format("woff");
+}
+@font-face {
+  font-family: "PP Fragment Serif ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("PP Fragment Serif ExtraBold"), url("../fonts/pp-fragment-webfont/PPFragment-SerifExtraBold.woff") format("woff");
+}
+.header-style-one.header-breakfast {
+  border-bottom: 1px solid rgba(var(--headings-color-rgb), 0.1);
+}
+.header-style-one.header-breakfast .main-box .nav-outer .nav .navigation li a {
+  color: var(--headings-color);
+}
+
+.checkout-section-breakfast .checkout-block .nice-select::before {
+  top: 20px;
+  line-height: 1;
+}
+
+.checkout-wrapper-breakfast2 .checkout-field .nice-select::before {
+  left: 100px;
+}
+
+.checkout-wrapper-breakfast2 .checkout-field .nice-select {
+  margin-bottom: 0;
+}
+
+.checkout-wrapper-breakfast2 .checkout-button .theme-btn-breakfast .btn-title {
+  padding: 17.5px 36px;
+}
+
+.checkout-wrapper-breakfast2 .theme-btn-breakfast .btn-arrow-right {
+  height: 63px;
+}
+
+.checkout-wrapper-breakfast2 .theme-btn-breakfast .btn-arrow-left {
+  height: 63px;
+}
+
+.contact-section.style-breakfast .form-column .contact-form .nice-select:before {
+  line-height: 1;
+  top: 14px;
+}
+
+.room-section-breakfast .outer-box .room-block-breakfast {
+  background-color: var(--body-bg);
+}

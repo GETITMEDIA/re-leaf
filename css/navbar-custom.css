@@ -1,0 +1,352 @@
+/* =========================================================
+   Custom Floating Pill Navbar
+   Overrides header-style-one to look like a rounded floating
+   bar: logo left, centered links, gradient pill button + search
+   ========================================================= */
+
+.header-style-one {
+  background-color: transparent !important;
+  padding: 18px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-style-one .main-box {
+  background-color: #000000;
+  border-radius: 999px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.14);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 8px 10px 8px 26px;
+  min-height: 70px;
+}
+
+.header-style-one .header-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-style-one .header-logo img {
+  max-height: 44px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.header-style-one .header-menu {
+  border: none;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-style-one .nav-outer {
+  margin: 0 auto;
+}
+
+.header-style-one .main-menu .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-style-one .main-menu .navigation > li {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.header-style-one .main-menu .navigation > li > a {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.header-style-one .main-menu .navigation > li > a:hover,
+.header-style-one .main-menu .navigation > li.current > a,
+.header-style-one .main-menu .navigation > li:hover > a {
+  color: #ffffff;
+}
+
+.header-style-one .main-menu .navigation > li.dropdown:hover .dropdown-btn,
+.header-style-one .main-menu .navigation > li.dropdown:hover .dropdown-btn i {
+  color: #ffffff;
+}
+
+.header-style-one .header-right {
+  flex-shrink: 0;
+  gap: 14px;
+}
+
+/* Gradient pill book-now button, scoped to the header only */
+.header-style-one .header-button .theme-btn-main {
+  border-radius: 999px;
+  overflow: visible;
+}
+
+.header-style-one .header-button .theme-btn-main .theme-btn {
+  background: linear-gradient(135deg, #f3d873, var(--theme-color1));
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 28px;
+}
+
+/* Search icon trigger */
+.header-style-one .search-toggler {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  color: #000;
+  font-size: 15px;
+  transition: 0.3s;
+  flex-shrink: 0;
+}
+
+.header-style-one .search-toggler:hover {
+  background: var(--theme-color1);
+  color: #000;
+}
+
+.header-style-one .mobile-nav-toggler span {
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  .header-style-one .main-box {
+    padding: 8px 20px;
+    min-height: 64px;
+  }
+  .header-style-one .header-menu {
+    display: none;
+  }
+  .header-style-one .search-toggler {
+    display: none !important;
+  }
+  .header-style-one .mobile-nav-toggler {
+    margin-left: 0 !important;
+  }
+}
+
+/* Sticky header keeps the same floating pill look */
+.header-style-one .sticky-header.fixed-header {
+  background: #000000;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.header-style-one .sticky-header .inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  .header-style-one .sticky-header .nav-outer {
+    margin: 0;
+    padding: 0;
+  }
+  .header-style-one .sticky-header .mobile-nav-toggler {
+    margin: 0 !important;
+  }
+}
+
+/* Fix Footer Alignment */
+.main-footer .contact-list .inner .list-info {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 12px !important;
+}
+.main-footer .contact-list .inner .list-info i {
+  width: 20px !important;
+  height: 24px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+  margin: 0 !important;
+  flex-shrink: 0 !important;
+  position: static !important;
+  font-size: 18px !important;
+  background: transparent !important;
+  border: none !important;
+  backdrop-filter: none !important;
+}
+.main-footer .contact-list .inner .list-info > div {
+  text-align: left !important;
+  flex-grow: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  line-height: 24px !important;
+}
+.main-footer .user-links li {
+  padding: 0 !important;
+  text-indent: 0 !important;
+  margin-bottom: 12px !important;
+  line-height: 1.4 !important;
+}
+.main-footer .user-links li a {
+  display: inline-block !important;
+  padding-left: 16px !important;
+  position: relative !important;
+}
+.footer-style-one .user-links li a:before {
+  left: 0 !important;
+  top: 8px !important;
+}
+
+/* =========================================================
+   Mobile / slide-in menu — match the white + gold theme
+   ========================================================= */
+/* Fix date picker text color */
+.checkout-wrapper-mountain .checkout-field input,
+.checkout-field input.date-pick,
+.flatpickr-input {
+  color: #000000 !important;
+}
+
+/* Fix Testimonial Person Icon Layout */
+.testimonial-block-one {
+  border-radius: 12px;
+  overflow: hidden;
+  min-height: 350px;
+}
+.testimonial-block-one .testimonial-thumb {
+  width: 350px;
+  min-width: 350px;
+  flex-shrink: 0;
+  display: block;
+  background-color: #f8f9fa;
+  align-self: stretch;
+  position: relative;
+}
+.testimonial-block-one .testimonial-thumb img,
+.testimonial-block-one .testimonial-thumb > div {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-block-one .testimonial-thumb i {
+  font-size: 150px;
+  color: #e9ecef;
+}
+
+@media (max-width: 991.98px) {
+  .testimonial-block-one .testimonial-thumb {
+    width: 280px;
+    min-width: 280px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .testimonial-block-one .testimonial-thumb {
+    width: 100%;
+    min-width: 100%;
+    height: 350px;
+    min-height: 350px;
+  }
+}
+
+.mobile-menu .menu-box {
+  background-color: #ffffff;
+}
+
+.mobile-menu .upper-box {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .close-btn {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #000;
+}
+
+.mobile-menu-book-btn {
+  padding: 0 20px 20px;
+}
+
+.mobile-book-now-btn {
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f3d873, var(--theme-color1));
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.mobile-menu .navigation {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .navigation li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .navigation li > a {
+  color: #000;
+}
+
+.mobile-menu .navigation li:hover > a,
+.mobile-menu .navigation li.current > a {
+  color: var(--theme-color1);
+}
+
+.mobile-menu .navigation li.dropdown .dropdown-btn {
+  color: #000;
+}
+
+.mobile-menu .navigation li.dropdown .dropdown-btn:after {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .navigation li > ul > li {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.contact-list-one li .icon,
+.contact-list-one li .text,
+.contact-list-one li .text a,
+.contact-list-one li a,
+.contact-info-box {
+  color: #000;
+}
+
+.contact-list-one li .title {
+  color: var(--theme-color1);
+}
+
+.mobile-menu .social-links {
+  background: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .social-links li {
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.mobile-menu .social-links li a {
+  color: #000;
+}
+
+.mobile-menu .social-links li a:hover {
+  color: var(--theme-color1);
+}

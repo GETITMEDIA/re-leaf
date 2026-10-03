@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&amp;display=swap");
+:root {
+  --theme-color1: #966650;
+  --theme-color2: #020214;
+  --theme-color3: #eaede4;
+  --theme-color4: #121212;
+  --theme-color5: #050505;
+  --theme-color-dark: #121212;
+  --theme-color-dark2: #050505;
+  --theme-color1-rgb: 150, 102, 80;
+  --theme-color2-rgb: 2, 2, 20;
+  --theme-color3-rgb: 234, 237, 228;
+  --theme-color4-rgb: 18, 18, 18;
+  --theme-color-gray: var(--theme-color3);
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --theme-color3-text-color: #020214;
+  --theme-color4-text-color: #fff;
+  --theme-color5-text-color: #fff;
+  --heading-font-family: "MangoGrotesque", sans-serif;
+  --body-font-size: 18px;
+  --body-line-height: 28px;
+  --body-font-weight: 400;
+  --h1-font-size: 200px;
+  --h2-font-size: 140px;
+  --h3-font-size: 50px;
+  --h4-font-size: 24px;
+  --h5-font-size: 18px;
+  --h6-font-size: 16px;
+  --h1-font-weight: 500;
+  --h2-font-weight: 500;
+  --h3-font-weight: 500;
+  --h4-font-weight: 500;
+  --container-width: 1744px;
+  --large-container-width: 1760px;
+}
+
+.header-menu {
+  background-color: rgba(var(--theme-color-white-rgb), 0.08);
+}
+
+.main-menu .navigation > li > a,
+.main-menu .navigation > li > ul > li > a,
+.main-footer .widget-title {
+  font-family: var(--body-font-family);
+}
+
+.color1 {
+  color: var(--theme-color1);
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--container-width);
+  }
+}
+@font-face {
+  font-display: swap;
+  font-family: "MangoGrotesque";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "MangoGrotesque";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Medium.woff2") format("woff2");
+}luid {
+  padding-top: var(--container-pt);
+  padding-bottom: var(--container-pt);
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--container-width);
+  }
+}
+.header-menu {
+  background-color: rgba(var(--theme-color-white-rgb), 0.08);
+}
+
+.main-menu .navigation > li > a,
+.main-menu .navigation > li > ul > li > a {
+  font-family: var(--body-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+.color1 {
+  color: var(--theme-color1);
+}

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap");
+:root {
+  --theme-color1: #eca549;
+  --theme-color2: #181820;
+  --theme-color1-rgb: 236, 165, 73;
+  --theme-color2-rgb: 24, 24, 32;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --text-color: rgba(24, 24, 32, 0.698);
+  --headings-color: #181820;
+  --headings-color-rgb: 24, 24, 32;
+  --heading-font-family: "Montserrat", sans-serif;
+  --h1-font-size: 300px;
+  --h2-font-size: 100px;
+  --h3-font-size: 36px;
+  --h4-font-size: 24px;
+  --h5-font-size: 22px;
+  --h6-font-size: 20px;
+  --h1-font-weight: 700;
+  --h2-font-weight: 600;
+  --h3-font-weight: 500;
+  --h4-font-weight: 500;
+  --h5-font-weight: 500;
+  --h6-font-weight: 500;
+  --container-width: 1314px;
+}
+
+.section-title .title {
+  text-transform: uppercase;
+  line-height: 110px;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--container-width);
+  }
+}
+@media screen and (max-width: 1199px) {
+  br {
+    display: none;
+  }
+  .pt-150 {
+    padding-top: 80px !important;
+  }
+  .pb-150 {
+    padding-bottom: 80px !important;
+  }
+  .mt-150 {
+    margin-top: 80px !important;
+  }
+  .mb-150 {
+    margin-bottom: 80px !important;
+  }
+  .pt-120 {
+    padding-top: 80px !important;
+  }
+  .pb-120 {
+    padding-bottom: 80px !important;
+  }
+  .mt-120 {
+    margin-top: 80px !important;
+  }
+  .mb-120 {
+    margin-bottom: 80px !important;
+  }
+  .pt-60 {
+    padding-top: 30px !important;
+  }
+  .pb-60 {
+    padding-bottom: 30px !important;
+  }
+  .mt-60 {
+    margin-top: 30px !important;
+  }
+  .mb-60 {
+    margin-bottom: 30px !important;
+  }
+  .section-title .title {
+    font-size: 52px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .section-title .title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+}
+.header-style-island2 .nice-select {
+  margin-bottom: 0;
+  line-height: 41px;
+  padding: 0 19px 0;
+}
+.header-style-island2 .nice-select:before {
+  top: 0;
+  font-size: 12px;
+}

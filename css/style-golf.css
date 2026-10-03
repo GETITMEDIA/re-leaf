@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lustria&amp;display=swap");
+:root {
+  --theme-color1: #fdf567;
+  --theme-color2: #0a192f;
+  --theme-color1-rgb: 253, 245, 103;
+  --theme-color2-rgb: 10, 25, 47;
+  --theme-color1-text-color: #181820;
+  --theme-color2-text-color: #fff;
+  --theme-color-white: #ffffff;
+  --theme-color-gray: #f1f1f2;
+  --theme-color-black: #000000;
+  --heading-font-family: "Lustria", serif;
+  --body-font-size: 18px;
+  --body-line-height: 1.611;
+  --body-font-weight: 400;
+  --h1-font-size: 72px;
+  --h2-font-size: 64px;
+  --h3-font-size: 36px;
+  --h4-font-size: 24px;
+  --h5-font-size: 22px;
+  --h6-font-size: 20px;
+  --container-width: 1744px;
+  --large-container-width: 1760px;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--container-width);
+  }
+}
+.header-style-golf .nice-select {
+  margin-bottom: 0;
+}
+
+.header-style-golf .nice-select {
+  margin-bottom: 0;
+  line-height: 41px;
+  padding: 0 19px 0;
+}
+.header-style-golf .nice-select:before {
+  top: 0;
+  font-size: 12px;
+  color: var(--theme-color-white);
+}
+.header-style-golf .nice-select .current {
+  color: var(--theme-color-white);
+}
+.header-style-golf .nice-select .list {
+  color: var(--theme-color-black);
+}
+
+.back-to-top-btn svg {
+  color: var(--theme-color-black);
+}
+
+.header-style-golf .sticky-header .mobile-nav-toggler {
+  color: var(--theme-color-black);
+}

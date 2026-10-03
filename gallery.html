@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<title>Photos &amp; Videos of Re Leaf Resort, Pondicherry | Gallery</title>
+<meta name="description" content="See Re Leaf Resort in pictures – cottages, swimming pool, garden gazebos, lawns and guest moments at our nature resort near Auroville, Pondicherry.">
+<meta name="keywords" content="Re Leaf Resort Photos, Re Leaf Resort Gallery, Nature Resort Pondicherry, Resort with Swimming Pool Pondicherry">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://releafresort.com/gallery.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Re Leaf Resort">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="Photos &amp; Videos of Re Leaf Resort, Pondicherry | Gallery">
+<meta property="og:description" content="See Re Leaf Resort in pictures – cottages, swimming pool, garden gazebos, lawns and guest moments at our nature resort near Auroville, Pondicherry.">
+<meta property="og:url" content="https://releafresort.com/gallery.html">
+<meta property="og:image" content="https://releafresort.com/images/og/re-leaf-resort-gallery.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Photos &amp; Videos of Re Leaf Resort, Pondicherry | Gallery">
+<meta name="twitter:description" content="See Re Leaf Resort in pictures – cottages, swimming pool, garden gazebos, lawns and guest moments at our nature resort near Auroville, Pondicherry.">
+<meta name="twitter:image" content="https://releafresort.com/images/og/re-leaf-resort-gallery.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Stylesheets -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/flatpickr.min.css" rel="stylesheet">
+<link href="css/style.css?v=3" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/navbar-custom.css">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  /* ===========================
+     GALLERY PAGE CUSTOM STYLES
+  =========================== */
+
+  /* Page Title Banner */
+  .gallery-page-title {
+    position: relative;
+    background-image: url(images/resort/hero/hero-image2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0 80px;
+    text-align: center;
+  }
+  .gallery-page-title::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+  }
+  .gallery-page-title .inner {
+    position: relative;
+    z-index: 2;
+  }
+  .gallery-page-title .sub-title {
+    display: inline-block;
+    font-family: var(--heading-font-family);
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--theme-color1);
+    margin-bottom: 12px;
+  }
+  .gallery-page-title h1 {
+    font-family: var(--heading-font-family);
+    font-size: clamp(36px, 6vw, 62px);
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 18px;
+  }
+  .gallery-page-title p {
+    font-size: 17px;
+    color: rgba(255,255,255,0.8);
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  .breadcrumb-nav {
+    margin-top: 22px;
+  }
+  .breadcrumb-nav a, .breadcrumb-nav span {
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.5px;
+  }
+  .breadcrumb-nav a:hover {
+    color: var(--theme-color1);
+  }
+  .breadcrumb-nav .sep {
+    margin: 0 8px;
+    color: rgba(255,255,255,0.4);
+  }
+
+  /* ===========================
+     FEATURED VIDEO SECTION
+  =========================== */
+  .gallery-video-section {
+    padding: 90px 0 70px;
+    background-color: #0a0a0a;
+    position: relative;
+    overflow: hidden;
+  }
+  .gallery-video-section::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(234,194,60,0.07) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .gallery-video-section .sec-label {
+    display: inline-block;
+    font-family: var(--heading-font-family);
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--theme-color1);
+    margin-bottom: 14px;
+  }
+  .gallery-video-section h2 {
+    font-family: var(--heading-font-family);
+    font-size: clamp(28px, 4vw, 44px);
+    color: #ffffff;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+  .gallery-video-section .desc {
+    font-size: 16px;
+    color: rgba(255,255,255,0.55);
+    max-width: 580px;
+    line-height: 1.75;
+    margin-bottom: 50px;
+  }
+  .video-player-wrapper {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+    background: #111;
+  }
+  .video-player-wrapper video {
+    width: 100%;
+    display: block;
+    border-radius: 16px;
+    max-height: 560px;
+    object-fit: cover;
+  }
+  .video-overlay-badge {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid rgba(234,194,60,0.3);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-family: var(--heading-font-family);
+  }
+  .video-glow-border {
+    position: absolute;
+    inset: -2px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, rgba(234,194,60,0.4), transparent, rgba(234,194,60,0.2));
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* ===========================
+     GALLERY GRID SECTION
+  =========================== */
+  .gallery-grid-section {
+    padding: 80px 0 100px;
+    background-color: #f9f7f3;
+  }
+  .gallery-grid-section .section-head {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+  .gallery-grid-section .section-head .tag {
+    display: inline-block;
+    font-family: var(--heading-font-family);
+    font-size: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--theme-color1);
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .gallery-grid-section .section-head .tag::before,
+  .gallery-grid-section .section-head .tag::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background: var(--theme-color1);
+    vertical-align: middle;
+    margin: 0 10px;
+  }
+  .gallery-grid-section .section-head h2 {
+    font-family: var(--heading-font-family);
+    font-size: clamp(28px, 4vw, 48px);
+    color: var(--headings-color);
+    margin-bottom: 14px;
+  }
+  .gallery-grid-section .section-head p {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.75;
+  }
+
+  /* Gallery Grid */
+  .gallery-masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 280px;
+    gap: 16px;
+  }
+  @media (max-width: 991px) {
+    .gallery-masonry { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 240px; }
+  }
+  @media (max-width: 575px) {
+    .gallery-masonry { grid-template-columns: 1fr; grid-auto-rows: 220px; }
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+  }
+  .gallery-item:hover img {
+    transform: scale(1.06);
+  }
+  /* Video item inside grid */
+  .gallery-item--video {
+    grid-row: span 2;
+    background: #000;
+  }
+  .gallery-item--video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+  }
+  .gallery-item--video:hover video {
+    transform: scale(1.04);
+  }
+  .gallery-item--video .gallery-overlay {
+    border-radius: 10px;
+  }
+  .gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  .gallery-item:hover img {
+    transform: scale(1.07);
+  }
+  .gallery-item .gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.7) 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+  }
+  .gallery-item:hover .gallery-overlay {
+    opacity: 1;
+  }
+  .gallery-item .overlay-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--theme-color1);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-left: auto;
+    transform: scale(0.6);
+    transition: transform 0.35s ease;
+  }
+  .gallery-item:hover .overlay-icon {
+    transform: scale(1);
+  }
+
+  /* ===========================
+     AOS ANIMATION OVERRIDES
+  =========================== */
+  [data-aos="gallery-fade"] {
+    opacity: 0;
+    transform: translateY(30px);
+    transition-property: opacity, transform;
+  }
+  [data-aos="gallery-fade"].aos-animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===========================
+     LIGHTBOX CUSTOM STYLING
+     (overrides fancybox default)
+  =========================== */
+  .fancybox-slide--image .fancybox-image {
+    border-radius: 8px;
+  }
+  .fancybox-toolbar {
+    background: rgba(0,0,0,0.6);
+  }
+  .fancybox-navigation .fancybox-button {
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .fancybox-navigation .fancybox-button:hover {
+    background: var(--theme-color1);
+    color: #000;
+  }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ImageGallery",
+      "@id": "https://releafresort.com/gallery.html#webpage",
+      "url": "https://releafresort.com/gallery.html",
+      "name": "Re Leaf Resort Gallery",
+      "isPartOf": {
+        "@id": "https://releafresort.com/#website"
+      },
+      "inLanguage": "en-IN",
+      "about": {
+        "@id": "https://releafresort.com/#resort"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://releafresort.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://releafresort.com/gallery.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<div class="page-wrapper">
+
+  <!-- Preloader start -->
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+    <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <div class="preloader-heading">
+      <div class="load-text">
+        <span>r</span>
+        <span>e</span>
+        <span>l</span>
+        <span>e</span>
+        <span>a</span>
+        <span>f</span>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader end -->
+
+  <!-- Back-to-top start -->
+  <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn" aria-label="Back to top">
+          <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+      </button>
+  </div>
+  <!-- Back-to-top end -->
+
+  <!-- Header Start-->
+  <header class="main-header header-style-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="main-box">
+            <div class="header-logo">
+              <a href="index.html"><img src="images/logo-01/logo-002.png" alt="Re Leaf Resort" width="209" height="70"></a>
+            </div>
+            <div class="header-menu">
+              <!--Nav Box-->
+              <div class="nav-outer">
+                <nav class="nav main-menu">
+                <ul class="navigation">
+                  <li class=""><a href="index.html">Home</a>
+
+                  </li>
+                  <li class="dropdown"><a href="#">Cottages</a>
+                    <ul>
+                      <li><a href="accottage.html">AC Cottage</a></li>
+                      <li><a href="naccottage.html">Non-AC Cottage</a></li>
+
+                    </ul>
+                  </li>
+
+                  <li><a href="about.html">About</a></li>
+                  <li class="current"><a href="gallery.html">Gallery</a></li>
+                  <li><a href="canteen.html">Canteen</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+                <!-- Main Menu End-->
+              </div>
+            </div>
+            <div class="header-right d-flex align-items-center">
+              <div class="header-button d-none d-md-block">
+                <a class="theme-btn-main" href="contact.html">
+                  <span class="theme-btn-arrow-left"><img src="images/icons/button-arrow.svg" alt=""></span>
+                  <span class="theme-btn">BOOK NOW </span>
+                  <span class="theme-btn-arrow-right"><img src="images/icons/button-arrow.svg" alt=""></span>
+                </a>
+              </div>
+              <a href="#" class="search-toggler" aria-label="Search"><i class="fa fa-search"></i></a>
+              <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+      <div class="menu-backdrop"></div>
+
+      <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+      <nav class="menu-box">
+        <div class="upper-box">
+          <div class="nav-logo"><a href="index.html"><img src="images/logo-01/logo-002.png" alt="Re Leaf Resort"></a></div>
+          <div class="close-btn"><i class="icon fa fa-times"></i></div>
+        </div>
+
+        <ul class="navigation clearfix">
+          <!--Keep This Empty / Menu will come through Javascript-->
+        </ul>
+        <div class="mobile-menu-book-btn">
+          <a href="contact.html" class="mobile-book-now-btn">Book Now</a>
+        </div>
+        <ul class="contact-list-one">
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <i class="icon lnr-icon-phone-handset"></i>
+              <span class="title">Call Now</span>
+              <a href="tel:+918220635822" style="white-space: nowrap;">+91 82206 35822</a> / <a href="tel:+919787678907" style="white-space: nowrap;">+91 97876 78907</a>
+            </div>
+          </li>
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <span class="icon lnr-icon-envelope1"></span>
+              <span class="title">Send Email</span>
+              <a href="mailto:releafresorts@gmail.com">releafresorts@gmail.com</a>
+            </div>
+          </li>
+          <li>
+            <!-- Contact Info Box -->
+            <div class="contact-info-box">
+              <span class="icon lnr-icon-clock"></span>
+              <span class="title">Working Hours</span>
+              Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+            </div>
+          </li>
+        </ul>
+
+        <ul class="social-links">
+          <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </nav>
+    </div><!-- End Mobile Menu -->
+
+    <!-- Header Search -->
+    <div class="search-popup">
+      <span class="search-back-drop"></span>
+      <button class="close-search" aria-label="Close search"><span class="fa fa-times"></span></button>
+      <div class="search-inner">
+        <form method="post" action="#">
+          <div class="form-group">
+            <input type="search" name="search-field" value="" placeholder="Search..." aria-label="Search" required="">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Header Search -->
+
+    <!-- Sticky Header  -->
+    <div class="sticky-header">
+      <div class="auto-container">
+        <div class="inner-container">
+          <!--Logo-->
+          <div class="logo">
+            <a href="index.html"><img src="images/logo-01/logo-002.png" alt="Re Leaf Resort"></a>
+          </div>
+
+          <!--Right Col-->
+          <div class="nav-outer">
+            <!-- Main Menu -->
+            <nav class="main-menu">
+              <div class="navbar-collapse show collapse clearfix">
+                <ul class="navigation clearfix">
+                  <!--Keep This Empty / Menu will come through Javascript-->
+                </ul>
+              </div>
+            </nav><!-- Main Menu End-->
+
+            <!--Mobile Navigation Toggler-->
+            <div class="mobile-nav-toggler"><span class="icon fal fa-bars"></span></div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Sticky Menu -->
+  </header>
+  <!-- Header End-->
+
+  <!-- Page Title Banner -->
+  <section class="gallery-page-title">
+    <div class="inner">
+      <span class="sub-title">Visual Journey</span>
+      <h1>Re Leaf Resort Gallery</h1>
+      <p>Explore the beauty, comfort, and unforgettable experiences at Re Leaf Resort, Pondicherry, through our collection of photos and videos.</p>
+      <div class="breadcrumb-nav">
+        <a href="index.html">Home</a>
+        <span class="sep">/</span>
+        <span>Gallery</span>
+      </div>
+    </div>
+  </section>
+  <!-- End Page Title Banner -->
+
+  <!-- Featured Video Section -->
+  <section class="gallery-video-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right" data-aos-duration="900">
+          <span class="sec-label">Resort Film</span>
+          <h2>Experience Re Leaf<br>in Motion</h2>
+          <p class="desc">Step inside the world of Re Leaf Resort — lush greenery, peaceful cottages, sparkling waters, and joyful moments captured just for you.</p>
+          <a href="contact.html" class="theme-btn-main">
+            <span class="theme-btn-arrow-left"><img src="images/icons/button-arrow.svg" alt=""></span>
+            <span class="theme-btn">BOOK YOUR STAY</span>
+            <span class="theme-btn-arrow-right"><img src="images/icons/button-arrow.svg" alt=""></span>
+          </a>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+          <div class="video-player-wrapper">
+            <div class="video-glow-border"></div>
+            <video
+              id="galleryPromoVideo"
+              aria-label="Re Leaf Resort promo film"
+              src="images/video/re-leaf-resort-promo-film.mp4" poster="images/video/re-leaf-resort-promo-film-poster.webp"
+              autoplay
+              muted
+              loop
+              playsinline
+              controls
+            ></video>
+            <div class="video-overlay-badge">&#9654; Re Leaf Resort — Promo Film</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Featured Video Section -->
+
+  <!-- Gallery Grid Section -->
+  <section class="gallery-grid-section">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up" data-aos-duration="800">
+        <div class="tag">Photo Gallery</div>
+        <h2>Moments Worth Remembering</h2>
+        <p>A curated collection of our finest spaces &mdash; from the <a href="accottage.html">AC Cottage</a> and <a href="naccottage.html">Non-AC Cottage</a> to the pool and gardens &mdash; and the natural beauty that makes Re Leaf Resort a truly special escape.</p>
+      </div>
+
+      <div class="gallery-masonry">
+
+        <!-- Row 1 -->
+        <a class="gallery-item" href="images/webp/guests/group-photo-on-resort-lawn.webp" data-fancybox="gallery" data-caption="Re Leaf Resort — Cherished Moments with Friends &amp; Family" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="1600" height="1200" src="images/webp/guests/group-photo-on-resort-lawn.webp" alt="Large group of guests posing on the lawn at Re Leaf Resort" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/terrace-dining-table.webp" data-fancybox="gallery" data-caption="Resort Walkway" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/terrace-dining-table.webp" alt="Terrace dining table with chairs overlooking greenery" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/rooms/ac-cottage-bedroom.webp" data-fancybox="gallery" data-caption="AC Cottage" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="1600" height="1200" src="images/webp/rooms/ac-cottage-bedroom.webp" alt="AC Cottage bedroom with wooden bed and ceiling fan" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 2 -->
+        <a class="gallery-item" href="images/webp/resort/garden-gazebo-and-lawn.webp" data-fancybox="gallery" data-caption="Resort Ground" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/garden-gazebo-and-lawn.webp" alt="Garden gazebo and lawn surrounded by palm trees" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/guests/guests-on-resort-lawn.webp" data-fancybox="gallery" data-caption="Re Leaf Resort — Our Beautiful Resort Grounds" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="1600" height="1200" src="images/webp/guests/guests-on-resort-lawn.webp" alt="Guests on the resort lawn in front of the cottages" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/rooms/non-ac-cottage-living-area.webp" data-fancybox="gallery" data-caption="Non-AC Cottage" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="1600" height="1200" src="images/webp/rooms/non-ac-cottage-living-area.webp" alt="Non-AC Cottage living area with sofa and TV" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 3 -->
+        <a class="gallery-item" href="images/webp/resort/garden-swing-bench.webp" data-fancybox="gallery" data-caption="Resort Garden" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/garden-swing-bench.webp" alt="Garden swing bench beside the cottages" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/guests/evening-group-dinner.webp" data-fancybox="gallery" data-caption="Re Leaf Resort — Vibrant Evening Dining Under the Stars" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="1600" height="1200" src="images/webp/guests/evening-group-dinner.webp" alt="Guests enjoying an evening group dinner at the resort" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/rooms/ac-cottage-wall-decor.webp" data-fancybox="gallery" data-caption="AC Cottage Interior" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="1600" height="1200" src="images/webp/rooms/ac-cottage-wall-decor.webp" alt="Wall decor in the AC Cottage" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 4 -->
+        <a class="gallery-item" href="images/webp/resort/covered-patio-seating.webp" data-fancybox="gallery" data-caption="Resort View" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/covered-patio-seating.webp" alt="Covered patio with table, chairs and hanging swing chair" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/rooms/non-ac-cottage-bedroom-wooden-bed.webp" data-fancybox="gallery" data-caption="Non-AC Cottage Interior" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="1600" height="1200" src="images/webp/rooms/non-ac-cottage-bedroom-wooden-bed.webp" alt="Non-AC Cottage bedroom with wooden bed" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/cottages-and-lawn-at-sunset.webp" data-fancybox="gallery" data-caption="Relaxing Area" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/cottages-and-lawn-at-sunset.webp" alt="Cottages and lawn at sunset with painted mural walls" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 5 -->
+        <a class="gallery-item" href="images/webp/resort/cottage-block-and-lawn.webp" data-fancybox="gallery" data-caption="Resort Surroundings" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="1600" height="1200" src="images/webp/resort/cottage-block-and-lawn.webp" alt="Cottage block with blue canopy beside the lawn" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/gazebo-seating-with-garden-view.webp" data-fancybox="gallery" data-caption="Outdoor Experience" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/gazebo-seating-with-garden-view.webp" alt="Gazebo seating with a view of the garden and murals" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/garden-gazebo-with-palm-trees.webp" data-fancybox="gallery" data-caption="Resort Landscape" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/garden-gazebo-with-palm-trees.webp" alt="Red-roofed garden gazebo with palm trees" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 6: Video + 2 photos -->
+        <!-- Portrait Video - spans 2 rows tall -->
+        <div class="gallery-item gallery-item--video" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <video
+            data-src="images/video/re-leaf-resort-portrait-tour.mp4" poster="images/video/re-leaf-resort-portrait-tour-poster.webp" preload="none" aria-label="Portrait video tour of Re Leaf Resort"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-play"></i></div></div>
+        </div>
+
+        <a class="gallery-item" href="images/webp/resort/courtyard-and-rooftop-gazebo.webp" data-fancybox="gallery" data-caption="Resort Greenery" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="150">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/courtyard-and-rooftop-gazebo.webp" alt="Courtyard with swing and rooftop gazebo" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/covered-lounge-with-swing-chair.webp" data-fancybox="gallery" data-caption="Nature Walk" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="300">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/covered-lounge-with-swing-chair.webp" alt="Covered lounge with hanging swing chair and murals" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/patio-table-and-swing-chair.webp" data-fancybox="gallery" data-caption="Resort Pathway" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="150">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/patio-table-and-swing-chair.webp" alt="Patio table and swing chair under a blue canopy" loading="lazy">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/resort/rooftop-gazebo-seating.webp" data-fancybox="gallery" data-caption="Evening at Resort" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="300">
+          <img decoding="async" width="1600" height="900" src="images/webp/resort/rooftop-gazebo-seating.webp" alt="Rooftop gazebo seating surrounded by trees" loading="lazy">
+        </a>
+
+        <!-- Row 6 -->
+        <a class="gallery-item" href="images/webp/guests/guests-with-lion-mural.webp" data-fancybox="gallery" data-caption="Re Leaf Resort - Beautiful Views" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="900" height="1600" src="images/webp/guests/guests-with-lion-mural.webp" alt="Guests posing in front of a lion mural" loading="lazy" style="object-position: 50% 20%;">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/guests/guests-with-peacock-mural.webp" data-fancybox="gallery" data-caption="Re Leaf Resort - Evening Ambiance" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="900" height="1600" src="images/webp/guests/guests-with-peacock-mural.webp" alt="Guests posing in front of a peacock mural" loading="lazy" style="object-position: 50% 20%;">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/guests/guest-on-resort-lawn.webp" data-fancybox="gallery" data-caption="Re Leaf Resort - Relaxing Atmosphere" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="200">
+          <img decoding="async" width="720" height="1280" src="images/webp/guests/guest-on-resort-lawn.webp" alt="Guest standing on the resort lawn" loading="lazy" style="object-position: 50% 20%;">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <!-- Row 7 -->
+        <a class="gallery-item" href="images/webp/guests/family-at-mural-wall.webp" data-fancybox="gallery" data-caption="Re Leaf Resort - Experience Nature" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="0">
+          <img decoding="async" width="900" height="1600" src="images/webp/guests/family-at-mural-wall.webp" alt="Family seated in front of a painted mural wall" loading="lazy" style="object-position: 50% 20%;">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+        <a class="gallery-item" href="images/webp/guests/child-on-gazebo-staircase.webp" data-fancybox="gallery" data-caption="Re Leaf Resort - Night Time Beauty" data-aos="gallery-fade" data-aos-duration="700" data-aos-delay="100">
+          <img decoding="async" width="899" height="1599" src="images/webp/guests/child-on-gazebo-staircase.webp" alt="Child standing on the rooftop gazebo staircase" loading="lazy" style="object-position: 50% 20%;">
+          <div class="gallery-overlay"><div class="overlay-icon"><i class="fa fa-expand"></i></div></div>
+        </a>
+
+      </div><!-- End gallery-masonry -->
+    </div>
+  </section>
+  <!-- End Gallery Grid Section -->
+
+  <!-- CTA Section -->
+  <section style="background: #0a0a0a; padding: 80px 0; text-align: center;">
+    <div class="container">
+      <div data-aos="fade-up" data-aos-duration="800">
+        <span style="display:inline-block;font-family:var(--heading-font-family);font-size:13px;letter-spacing:4px;text-transform:uppercase;color:var(--theme-color1);margin-bottom:14px;">Book Your Escape</span>
+        <h2 style="font-family:var(--heading-font-family);font-size:clamp(28px,4vw,48px);color:#fff;margin-bottom:18px;">Ready to Make Your Own Memories?</h2>
+        <p style="font-size:16px;color:rgba(255,255,255,0.6);max-width:560px;margin:0 auto 36px;line-height:1.75;">Join us for an unforgettable stay in the heart of nature. Cottages await, and every moment is yours to treasure.</p>
+        <a class="theme-btn-main" href="contact.html">
+          <span class="theme-btn-arrow-left"><img src="images/icons/button-arrow.svg" alt=""></span>
+          <span class="theme-btn">BOOK NOW</span>
+          <span class="theme-btn-arrow-right"><img src="images/icons/button-arrow.svg" alt=""></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End CTA Section -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer footer-style-one">
+    <div class="wrapper">
+      <div class="container">
+        <!-- Widgets Section -->
+        <div class="widgets-section">
+          <div class="row">
+            <!-- Footer Column -->
+            <div class="footer-column col-xl-5 col-lg-4 col-sm-6">
+              <div class="footer-widget">
+                <div class="logo"><a href="index.html"> <img src="images/logo-01/logo-002.png" alt="Re Leaf Resort logo"></a></div>
+                <div class="widget-content">
+                  <div class="text mb-0">Re Leaf Resort is a peaceful, nature-inspired resort near Auroville, Pondicherry, offering spacious AC and Non-AC cottages, a swimming pool, and a children’s play area.</div>
+                </div>
+              </div>
+              <div class="footer-widget widget-social">
+                <div class="widget-content mt-40">
+                  <ul class="social-icon">
+                    <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Column -->
+            <div class="footer-column col-xl-2 col-lg-3 col-sm-6">
+              <div class="footer-widget links-widget">
+                <h4 class="widget-title">Quick links</h4>
+                <div class="widget-content ml-20">
+                  <ul class="user-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="accottage.html">AC Cottage</a></li>
+                    <li><a href="naccottage.html">Non-AC Cottage</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="canteen.html">Canteen</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Footer Column -->
+            <div class="footer-column col-xl-2 col-lg-2 col-sm-6">
+              <div class="footer-widget links-widget">
+                <h4 class="widget-title">Amenities</h4>
+                <div class="widget-content ml-20">
+                  <ul class="user-links">
+                    <li><a href="index.html#cottage">Spacious Cottages</a></li>
+                    <li><a href="about.html#facilities">Swimming Pool</a></li>
+                    <li><a href="about.html#facilities">Children's Play Area</a></li>
+                    <li><a href="gallery.html">Private Balcony Views</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- footer column -->
+            <div class="footer-column col-xl-3 col-lg-3 col-sm-6">
+              <div class="footer-widget info-widget">
+                <h4 class="widget-title">Contact</h4>
+                <div class="widget-content">
+                  <!-- Contact List -->
+                  <div class="contact-list">
+                    <div class="inner">
+                      <div class="list-info align-items-start"><i class="fa-regular fa-phone-volume"></i> <div><a href="tel:+918220635822" style="white-space: nowrap;">+91 82206 35822</a> / <a href="tel:+919787678907" style="white-space: nowrap;">+91 97876 78907</a></div></div>
+                      <div class="list-info align-items-start"><i class="fa-regular fa-envelope"></i> <div><a href="mailto:releafresorts@gmail.com">releafresorts@gmail.com</a></div></div>
+                      <div class="list-info align-items-start"><i class="fa-light fa-location-dot"></i> <address class="mb-0" style="font-style:normal;"><a href="https://maps.google.com/?cid=7943404720275871349" target="_blank" rel="noopener">HARMONY FARM LAND, 274, Mariyamman Koil St, <br>Manaveli, Auroville, Pondicherry 605 009.</a></address></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="auto-container">
+          <div class="row">
+            <div class="col-xl-5 col-lg-4">
+              <div class="footer-bottom-widget">
+                <div class="footer-bottom-widget-text copyright-text text-center text-lg-start">© 2026 Re Leaf Resort. All Rights Reserved</div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4">
+              <div class="footer-bottom-widget"><div class="footer-bottom-widget-text">Designed &amp; Developed by <a href="https://www.getitmediasolutions.com/" target="_blank" rel="noopener" style="color:var(--theme-color1);font-weight:600;letter-spacing:0.5px;text-decoration:none;transition:opacity 0.2s;" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='1'">Getit Media Solutions</a></div></div>
+            </div>
+            <div class="col-xl-4 col-lg-4">
+              <div class="footer-bottom-widget">
+                <div class="footer-bottom-widget-text back-to-top text-center text-lg-end"><a href="#">Back to top <span><i class="fa-regular fa-arrow-up"></i></span></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </footer>
+  <!--End Main Footer -->
+
+</div><!-- End Page Wrapper -->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slick-animation.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/mixitup.js"></script>
+<script src="js/flatpickr.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/gsap.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/SplitText.min.js"></script>
+<script src="js/splitType.js"></script>
+<script src="js/script.js"></script>
+
+<script src="js/script-gsap.js"></script>
+
+<script>
+  // Initialize AOS
+  AOS.init({ once: true, easing: 'ease-out-quart' });
+
+  // Initialize Fancybox for gallery
+  $('[data-fancybox="gallery"]').fancybox({
+    buttons: ["zoom", "slideShow", "fullScreen", "close"],
+    loop: true,
+    protect: false,
+    animationEffect: "zoom",
+    transitionEffect: "slide",
+    caption: function(instance, item) {
+      return $(this).data('caption');
+    }
+  });
+</script>
+<script>
+  // Load grid videos only when they approach the viewport
+  (function () {
+    var vids = document.querySelectorAll('video[data-src]');
+    function load(v) { v.src = v.getAttribute('data-src'); v.removeAttribute('data-src'); var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+    if (!('IntersectionObserver' in window)) { vids.forEach(load); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { load(e.target); io.unobserve(e.target); } });
+    }, { rootMargin: '300px 0px' });
+    vids.forEach(function (v) { io.observe(v); });
+  })();
+</script>
+</body>
+
+
+</html>

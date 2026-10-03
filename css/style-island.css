@@ -1,0 +1,80 @@
+:root {
+  --theme-color1: #A48361;
+  --theme-color2: #040618;
+  --theme-color1-rgb: 164, 131, 97;
+  --theme-color2-rgb: 4, 6, 24;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --text-color: rgba(18, 18, 18, 0.7);
+  --headings-color: #121212;
+  --gray-color: #B6BCC2;
+  --heading-font-family: "Beatrice Trial", sans-serif;
+  --style-font-2: "Hiatus", sans-serif;
+  --h1-font-family: var(--style-font-2);
+  --h3-font-family: var(--body-font-family);
+  --h4-font-family: var(--body-font-family);
+  --h5-font-family: var(--body-font-family);
+  --h6-font-family: var(--body-font-family);
+  --h2-font-size: 65px;
+  --h3-font-size: 34px;
+  --h2-font-weight: 400;
+  --line-height-heading-h2: 1.23;
+}
+
+h1 {
+  font-family: var(--style-font-2);
+}
+
+.sec-title {
+  margin-bottom: 60px;
+}
+
+@font-face {
+  font-family: "Beatrice Trial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/beatrice/BeatriceTRIAL-Regular.otf") format("otf"), url("../fonts/beatrice/BeatriceTRIAL-Regular.ttf") format("ttf") format("truetype");
+}
+@font-face {
+  font-family: "Hiatus", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/hiatus/Hiatus-K7GzA.ttf") format("ttf"), url("../fonts/hiatus/Hiatus-MVJnw.otf") format("otf") format("truetype");
+}
+.header-style-island .nice-select {
+  border: 1px solid rgba(24, 24, 32, 0.14);
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 16px;
+  color: #181820;
+  width: 70px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+@media (max-width: 1244.98px) {
+  .header-style-island .nice-select {
+    display: none;
+  }
+}
+.header-style-island .nice-select .option {
+  color: var(--theme-color2);
+}
+@media (max-width: 575.98px) {
+  .header-style-island .nice-select {
+    display: none;
+  }
+}
+.header-style-island .nice-select:before {
+  color: #181820;
+  font-size: 10px;
+  right: 15px;
+  top: 0;
+}
+
+.header-style-island .nice-select {
+  line-height: 43px;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+:root {
+  --theme-color1: #178753;
+  --theme-color2: #000000;
+  --theme-color3: #15221c;
+  --theme-color1-rgb: 23, 135, 83;
+  --theme-color2-rgb: 0, 0, 0;
+  --theme-color3-rgb: 21, 34, 28;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --theme-color3-text-color: #fff;
+  --body-bg: #172c23;
+  --heading-font-family: "Beatrice Trial", sans-serif;
+  --body-font-family: "Kanit", serif;
+  --text-color: rgba(255, 255, 255, 0.7);
+  --headings-color: #ffffff;
+  --h1-font-size: 110px;
+  --h2-font-size: 90px;
+  --h3-font-size: 30px;
+  --body-font-size: 18px;
+  --body-line-height: 1.77;
+  --body-font-weight: 400;
+  --line-height-heading-h1: 1;
+  --line-height-heading: 1.4;
+  --sec-title-font-family: var(--heading-font-family);
+  --sec-title-font-weight: 300;
+  --container-width: 1600px;
+  --large-container-width: 1760px;
+}
+
+@font-face {
+  font-family: "Beatrice Trial", sans-serif;
+  font-style: light;
+  font-weight: 300;
+  font-display: block;
+  src: url("../fonts/BeatriceTRIAL/BeatriceTRIAL-Light.otf") format("otf"), url("../fonts/BeatriceTRIAL/BeatriceTRIAL-Light.ttf") format("ttf") format("truetype");
+}
+@font-face {
+  font-family: "Beatrice Trial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/BeatriceTRIAL/BeatriceTRIAL-Regular.otf") format("otf"), url("../fonts/BeatriceTRIAL/BeatriceTRIAL-Regular.ttf") format("ttf") format("truetype");
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1600px;
+  }
+}
+.back-to-top-btn {
+  color: var(--theme-color-white);
+}
+
+.search-popup .search-back-drop {
+  background-color: var(--body-bg);
+}
+
+.service-mountain .sec-title {
+  margin-bottom: 50px;
+}
+.service-mountain .sec-title .title {
+  max-width: 80%;
+}
+
+.header-1-mountain .nice-select {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  width: 50px;
+  margin-bottom: 0;
+}
+.header-1-mountain .nice-select .option {
+  color: var(--theme-color2);
+}
+@media (max-width: 575.98px) {
+  .header-1-mountain .nice-select {
+    display: none;
+  }
+}
+.header-1-mountain .nice-select:before {
+  color: var(--theme-color2-text-color);
+  font-size: 10px;
+  right: 8px;
+  top: 0;
+}
+
+.header-1-mountain .nice-select .current,
+.header-1-mountain .sticky-header .main-menu .navigation > li > a {
+  color: var(--theme-color2-text-color);
+}
+
+.header-style-two .sticky-header .main-menu .navigation > li:hover > a {
+  color: var(--theme-color-white);
+}
+
+.header-style-two .outer-box .mobile-nav-toggler {
+  line-height: 44px;
+}
+
+.header-style-two .outer-box .ui-btn.search-btn img {
+  position: relative;
+  top: -3px;
+}
+
+.header-1-mountain .nice-select {
+  line-height: 47px;
+}
+
+.checkout-wrapper-mountain .checkout-field .nice-select:before {
+  line-height: 1;
+  top: 16px;
+}
+
+.room-suites-wrapper .room-suites-image-items .arrow-icon {
+  line-height: 70px;
+}

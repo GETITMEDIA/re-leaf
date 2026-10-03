@@ -1,0 +1,93 @@
+:root {
+  --theme-color1: #53624e;
+  --theme-color2: #040618;
+  --theme-color3: #eaede4;
+  --theme-color1-rgb: 83, 98, 78;
+  --theme-color2-rgb: 4, 6, 24;
+  --theme-color3-rgb: 234, 237, 228;
+  --theme-color1-text-color: #fff;
+  --theme-color2-text-color: #fff;
+  --theme-color3-text-color: #fff;
+  --text-color: rgba(4, 6, 24, 0.7);
+  --headings-color: var(--theme-color2);
+  --heading-font-family: "Romans Story Demo", serif;
+  --body-font-size: 18px;
+  --body-line-height: 28px;
+  --body-font-weight: 400;
+  --h1-font-size: 140px;
+  --h2-font-size: 50px;
+  --h3-font-size: 34px;
+  --h4-font-size: 24px;
+  --h5-font-size: 20px;
+  --h6-font-size: 18px;
+  --h1-font-weight: 400;
+  --h2-font-weight: 400;
+  --h3-font-weight: 500;
+  --h4-font-weight: 500;
+  --h5-font-weight: 500;
+  --h6-font-weight: 500;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Romans Story Demo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Romans-Story.otf") format("otf");
+}
+.footer-style-one {
+  background-color: var(--theme-color1);
+} 500;
+  --h5-font-weight: 500;
+  --h6-font-weight: 500;
+  --container-width: 1744px;
+  --small-container-width: 1000px;
+  --large-container-width: 1760px;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Romans Story Demo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Romans-Story.otf") format("otf");
+}
+/*
+ * container.scss
+ * -----------------------------------------------
+*/
+.container .container {
+  width: 100%;
+}
+
+.container .container,
+.container .container-fluid,
+.container-fluid .container,
+.container-fluid .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section > .container,
+section > .container-fluid {
+  padding-top: var(--container-pt);
+  padding-bottom: var(--container-pt);
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: var(--container-width);
+  }
+}
+.header-menu {
+  background-color: rgba(var(--theme-color-white-rgb), 0.08);
+}
+
+.color1 {
+  color: var(--theme-color1);
+}
